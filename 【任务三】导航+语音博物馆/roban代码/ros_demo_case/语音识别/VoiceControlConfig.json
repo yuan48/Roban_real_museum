@@ -1,0 +1,512 @@
+{
+    "前进": {
+        "key_words": [
+            "前进",
+            "往前走"
+        ],
+        "reply": [
+            "哦",
+            "好的",
+            "好的,往前走"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "walk_forward"
+    },
+    "后退": {
+        "key_words": [
+            "后退",
+            "往后走"
+        ],
+        "reply": [
+            "好的",
+            "好的,后退",
+            "好的往后走"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "walk_back"
+    },
+    "往左走":{
+        "key_words": [
+            "往左走",
+            "向左走"
+        ],
+        "reply": [
+            "好的",
+            "好的,向左走",
+            "好的向左"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "walk_left"
+    }, 
+    "往右走":{
+        "key_words": [
+            "往右走",
+            "向右走"
+        ],
+        "reply": [
+            "好的",
+            "好的,向右走",
+            "好的向右"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "walk_right"
+    }, 
+    "往左转":{
+        "key_words": [
+            "往左转",
+            "左转"
+        ],
+        "reply": [
+            "好的",
+            "好的,左转"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "turn_left"
+    }, 
+    "往右转":{
+        "key_words": [
+            "往右转",
+            "右转"
+        ],
+        "reply": [
+            "好的",
+            "好的,右转"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "turn_right"
+    }, 
+    "举手": {
+        "key_words": [
+            "举手",
+            "举起你的手"
+        ],
+        "reply": [
+            "好的",
+            "好的,举手"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    }, 
+    "摇头": {
+        "key_words": [
+            "摇头",
+            "请摇头"
+        ],
+        "reply": [
+            "好的",
+            "好的,摇头"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/摇头.py"
+    }, 
+    "伸展手臂": {
+        "key_words": [
+            "伸展手臂",
+            "伸展一下手臂"
+        ],
+        "reply": [
+            "好的",
+            "好的,伸展手臂"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/伸展手臂.py"
+    }, 
+    "点头": {
+        "key_words": [
+            "点头"
+        ],
+        "reply": [
+            "好的",
+            "好的,点头"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/点头.py"
+    }, 
+    "下蹲": {
+        "key_words": [
+            "下蹲"
+        ],
+        "reply": [
+            "好的",
+            "好的,下蹲"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/下蹲.py"
+    }, 
+    "人脸识别": {
+        "key_words": [
+            "人脸识别",
+            "人脸追踪"
+        ],
+        "reply": [
+            "好的",
+            "让我看看是哪个靓仔"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/人脸追踪案例.py"
+    }, 
+    "踢球": {
+        "key_words": [
+            "踢球",
+            "踢个球"
+        ],
+        "reply": [
+            "难不倒我",
+            "看我大力出奇迹",
+            "哦吼，一记漂亮的世界波"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/踢红球案例.py"
+    }, 
+    "避障": {
+        "key_words": [
+            "避障"
+        ],
+        "reply": [
+            "小问题，困不住我",
+            "快让开，别被我撞上了"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/避障案例.py"
+    }, 
+    "跳舞": {
+        "key_words": [
+            "跳舞",
+            "跳个舞"
+        ],
+        "reply": [
+            "来，跟我一起跳",
+            "看我蹦迪吗"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/Say-yeah舞蹈案例.py"
+    }, 
+    "上楼梯": {
+        "key_words": [
+            "上楼梯",
+            "走楼梯"
+        ],
+        "reply": [
+            "包在我身上"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/上楼梯案例.py"
+    }, 
+    "自平衡和人脸追踪": {
+        "key_words": [
+            "自平衡和人脸追踪"
+        ],
+        "reply": [
+            "稳稳得看向你"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/自平衡+人脸追踪.py"
+    }, 
+    "走s型曲线": {
+        "key_words": [
+            "走s型曲线"
+        ],
+        "reply": [
+            "好嘞",
+            "快跟上我的步伐"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/S形曲线行走案例.py"
+    },
+    "太极": {
+        "key_words": [
+            "太极",
+            "打太极"
+        ],
+        "reply": [
+            "一阴一阳之谓道",
+            "易有太极，始生两仪，两仪生四象，四象生八卦"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/武当太极.py"
+    },
+    "苹果":{
+        "key_words": [
+            "苹果"
+        ],
+        "reply": [
+            "这是苹果"
+        ],
+        "interpret_reply":[
+            "这是苹果[p2000]苹果, 是一种水果。蔷薇科苹果属植物。它原产于欧洲、中亚西亚、北美、中国新疆。蔷薇科。属落叶乔木，其树干可高达15米，呈灰褐色，老皮有不规则的纵裂或片状剥落，小枝幼时密生绒毛，后变光滑，紫褐色。苹果富含多种微量元素和维生素等多种人体所需的营养成分，是公认的营养程度最高的健康水果之一。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/fruits_action_files/fruit0.py"
+    },
+    "香蕉":{
+        "key_words": [
+            "香蕉"
+        ],
+        "reply": [
+            "这是香蕉"
+
+        ],
+        "interpret_reply":[
+            "香蕉是一种水果, 原产亚洲东南部，是芭蕉科、芭蕉属植物, 植株丛生，具匐匍茎，矮型的高3.5米以下，一般高不及2米。我国是世界上栽培香蕉的古老国家之一，世界上主栽的香蕉品种大多由中国传去。香蕉营养丰富，是公认的美容减肥食品，含有丰富的糖类、蛋白质、维生素、粗纤维、矿物质等营养成分。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/fruits_action_files/fruit0.py"
+    },
+    "橘子":{
+        "key_words": [
+            "橘子"
+        ],
+        "reply": [
+            "这是橘子"
+        ],
+        "interpret_reply":[
+            "橘子是一种水果。橘子外皮多为黄色、朱红色，果形有好几种，一般是扁圆球形至近圆球形。中国是柑橘的重要原产地之一，柑橘资源丰富，优良品种繁多，有4000多年的栽培历史。橘子营养丰富, 富含多种维生素与柠檬酸，具有开胃理气、止渴润肺、养颜护肤等功效，常吃橘子可以预防坏血病及夜盲症"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/fruits_action_files/fruit0.py"
+    },
+    "停止运行": {
+        "key_words": [
+            "停止运行",
+            "停下来"
+        ],
+        "reply": [
+            "好的",
+            "好嘞!"
+        ],
+        "cmd_type": "stop_node"
+    },
+    "自我介绍": {
+        "key_words": [
+            "自我介绍"
+
+        ],
+        "reply": [
+            "第一次见面，我是鲁班，是个机器人,很高兴见到你！欢迎来到博物馆!"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/点头.py"
+    },
+    "这是什么": {
+        "key_words": [
+            "这是什么"
+        ],
+        "reply": [
+            "开始识别该展品"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_museum_docent/scripts/main.py"
+    },
+    "Hi": {
+        "key_words": [
+            "你好"
+        ],
+        "reply": [
+            "第一次见面，我是鲁班，欢迎来到博物馆,很高兴见到你！本场馆建于2023年，共占地100平方米，本场馆家博物馆负有留存民族集体记忆、传承国家文化基因、促进文明交流互鉴的重要使命。本场馆现有藏品6件，展示了各个历史时期、不同流派的代表画作。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/点头.py"
+    },
+    "wakeup": {
+        "key_words": [
+            "wakeup"
+        ],
+        "reply": [
+            "在呢",
+            "Hi",
+             "我在！"
+        ],
+        "cmd_type": "wakeup"
+    },
+
+    "exhibition_1": {
+        "key_words": [
+            "一",
+            "1",
+            "秋千"
+        ],
+        "reply": [
+            "第一件展品是秋千",
+            "这个展品的作者是让·奥诺雷·弗拉戈纳尔",
+            "这个展品的风格是洛可可风格代表作品",
+            "这个展品是洛可可风格的代表画作之一，这幅画代表了当时贵族的艺术趣味，描画得十分细致，花园的景色、人物、树丛和花也画的很美。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    },
+
+    "exhibition_2": {
+        "key_words": [
+            "展品二"
+        ],
+        "reply": [
+            "第二件展品是戴珍珠的少女",
+            "这个展品的作者是约翰内斯·维米尔",
+            "这个展品的风格是写实风格",
+            "《戴珍珠的少女》是荷兰黄金时期著名画家约翰·弗美尔的代表作之一，创作于1665-1667年。这幅画绘制了一位年轻的荷兰贵族少女."
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    },
+
+    "exhibition_3": {
+        "key_words": [
+            "展品三"
+        ],
+        "reply": [
+            "第三件展品是梅杜萨之筏",
+            "这个展品的作者是泰奥多尔·籍里柯",
+            "这个展品的风格是印象派油画",
+            "《梅杜萨之筏》是法国著名画家泰奥多尔·籍里柯于1818年创作的一幅巨型油画，画面描绘了夜色中绝望的人们在一望无际的海面上看到了天边船影的刹那间的情景."
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    },
+
+    "exhibition_4": {
+        "key_words": [
+            "展品四"
+        ],
+        "reply": [
+            "第四件展品是格尔尼卡",
+            "这个展品的作者是毕加索",
+            "这个展品的风格是超现实主义风格",
+            "《格尔尼卡》是西班牙立体主义画家帕勃洛·鲁伊斯·毕加索于20世纪30年创作的一幅巨型油画"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    },
+
+    "exhibition_5": {
+        "key_words": [
+            "展品五"
+        ],
+        "reply": [
+            "第五件展品是清明上河图",
+            "这个展品的作者是张择端",
+            "这个展品的风格是宋风俗画",
+            "清明上河图，中国十大传世名画之一。为北宋风俗画，北宋画家张择端仅见的存世精品。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    },
+
+    "exhibition_6": {
+        "key_words": [
+            "展品六"
+        ],
+        "reply": [
+            "第六件展品是星月夜",
+            "这个展品的作者是文森特·梵高",
+            "这个展品的风格是后印象派",
+            "《星月夜》是荷兰后印象派画家文森特·梵高于1889年在法国圣雷米创作的一幅油画，是梵高的代表作之一。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    },
+    "mm": {
+        "key_words": [
+            "麦当劳"
+        ],
+        "reply": [
+            "我想吃麦当劳！"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    },
+    "no": {
+        "key_words": [
+            "不知道"
+        ],
+        "reply": [
+            "这道题太难了，我不会。",
+            "这个问题太难了",
+            "抱歉，我不知道。",
+            "sorry"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/摇头.py"
+    },
+    "bye": {
+        "key_words": [
+            "下次见"
+        ],
+        "reply": [
+            "下次见!",
+            "byebye",
+            "see you next time"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/点头.py"
+    },
+
+    "xjr": {
+        "key_words": [
+            "xjr"
+        ],
+        "reply": [
+            "这件展品是胜利女神像",
+            "这个展品的作者是xxx",
+            "这个展品的风格是写实派主义",
+            "该展品是为历经苦难者颁发的勋章，是为不断前行者歌颂的赞歌。它展现了作者在获得胜利的喜悦心情，体现了胜利的来之不易与作者的坚持不懈。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_demo_case/face_tracking/face_tracking.py"
+    },
+    "rdfw": {
+        "key_words": [
+            "rdfw"
+        ],
+        "reply": [
+            "这件展品是基于数字电路的欧洲杯综述",
+            "这个展品的作者是北航xxx",
+            "这个展品的风格是抽象主义",
+            "该展品展现了作者在面对自然不可抗力因素时悲怆的心情，以及展望的乐观态度，表达了作者面对人生的豁达态度。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_demo_case/face_tracking/face_tracking.py"
+    },
+    "chensi": {
+        "key_words": [
+            "chensi"
+        ],
+        "reply": [
+            "这件展品是沉思",
+            "这个展品的作者是xxx",
+            "这个展品的风格是抽象现实主义",
+            "这件展品以抽象化的手法展示了人们陷入沉思的情态。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    },
+    "三星堆": {
+        "key_words": [
+            "三星堆"
+        ],
+        "reply": [
+            "这件展品是三星堆",
+            "这个展品的作者是xxx",
+            "这个展品的风格是抽象主义",
+            "此文物为商代的青铜器，立人像采用分段浇铸法嵌铸而成，身体中空，分人像与底座两部分。人像浓眉直目，高鼻阔嘴。现收藏于三星堆博物馆。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_demo_case/face_tracking/face_tracking.py"
+    },
+    "go2xjr": {
+        "key_words": [
+            "带我去展位一",
+            "带我去展位二",
+            "带我去展位三",
+            "带我去展位2",
+            "带我去展位3",
+            "去小金人"
+        ],
+        "reply": [
+            "好的，现在去这个展位"
+
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/点头.py"
+    }
+    
+}

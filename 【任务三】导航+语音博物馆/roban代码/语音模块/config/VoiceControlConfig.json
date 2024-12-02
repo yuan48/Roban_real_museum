@@ -1,0 +1,301 @@
+{
+    "前进": {
+        "key_words": [
+            "前进",
+            "往前走"
+        ],
+        "reply": [
+            "哦",
+            "好的",
+            "好的,往前走"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "walk_forward"
+    },
+    "后退": {
+        "key_words": [
+            "后退",
+            "往后走"
+        ],
+        "reply": [
+            "好的",
+            "好的,后退",
+            "好的往后走"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "walk_back"
+    },
+    "往左走":{
+        "key_words": [
+            "往左走",
+            "向左走"
+        ],
+        "reply": [
+            "好的",
+            "好的,向左走",
+            "好的向左"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "walk_left"
+    }, 
+    "往右走":{
+        "key_words": [
+            "往右走",
+            "向右走"
+        ],
+        "reply": [
+            "好的",
+            "好的,向右走",
+            "好的向右"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "walk_right"
+    }, 
+    "往左转":{
+        "key_words": [
+            "往左转",
+            "左转"
+        ],
+        "reply": [
+            "好的",
+            "好的,左转"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "turn_left"
+    }, 
+    "往右转":{
+        "key_words": [
+            "往右转",
+            "右转"
+        ],
+        "reply": [
+            "好的",
+            "好的,右转"
+        ],
+        "cmd_type": "execute_func",
+        "execute_func": "turn_right"
+    }, 
+    "举手": {
+        "key_words": [
+            "举手",
+            "举起你的手"
+        ],
+        "reply": [
+            "好的",
+            "好的,举手"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    }, 
+    "摇头": {
+        "key_words": [
+            "摇头",
+            "请摇头"
+        ],
+        "reply": [
+            "好的",
+            "好的,摇头"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/摇头.py"
+    }, 
+    "伸展手臂": {
+        "key_words": [
+            "伸展手臂",
+            "伸展一下手臂"
+        ],
+        "reply": [
+            "好的",
+            "好的,伸展手臂"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/伸展手臂.py"
+    }, 
+    "点头": {
+        "key_words": [
+            "点头"
+        ],
+        "reply": [
+            "好的",
+            "好的,点头"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/点头.py"
+    }, 
+    "下蹲": {
+        "key_words": [
+            "下蹲"
+        ],
+        "reply": [
+            "好的",
+            "好的,下蹲"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/下蹲.py"
+    }, 
+    "人脸识别": {
+        "key_words": [
+            "人脸识别",
+            "人脸追踪"
+        ],
+        "reply": [
+            "好的",
+            "让我看看是哪个靓仔"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/人脸追踪案例.py"
+    }, 
+    "踢球": {
+        "key_words": [
+            "踢球",
+            "踢个球"
+        ],
+        "reply": [
+            "难不倒我",
+            "看我大力出奇迹",
+            "哦吼，一记漂亮的世界波"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/踢红球案例.py"
+    }, 
+    "避障": {
+        "key_words": [
+            "避障"
+        ],
+        "reply": [
+            "小问题，困不住我",
+            "快让开，别被我撞上了"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/避障案例.py"
+    }, 
+    "跳舞": {
+        "key_words": [
+            "跳舞",
+            "跳个舞"
+        ],
+        "reply": [
+            "来，跟我一起跳",
+            "看我蹦迪吗"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/Say-yeah舞蹈案例.py"
+    }, 
+    "上楼梯": {
+        "key_words": [
+            "上楼梯",
+            "走楼梯"
+        ],
+        "reply": [
+            "包在我身上"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/上楼梯案例.py"
+    }, 
+    "自平衡和人脸追踪": {
+        "key_words": [
+            "自平衡和人脸追踪"
+        ],
+        "reply": [
+            "稳稳得看向你"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/自平衡+人脸追踪.py"
+    }, 
+    "走s型曲线": {
+        "key_words": [
+            "走s型曲线"
+        ],
+        "reply": [
+            "好嘞",
+            "快跟上我的步伐"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/S形曲线行走案例.py"
+    },
+    "太极": {
+        "key_words": [
+            "太极",
+            "打太极"
+        ],
+        "reply": [
+            "一阴一阳之谓道",
+            "易有太极，始生两仪，两仪生四象，四象生八卦"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/武当太极.py"
+    },
+    "苹果":{
+        "key_words": [
+            "识别到苹果"
+        ],
+        "reply": [
+            "这是苹果"
+        ],
+        "interpret_reply":[
+            "这是苹果[p2000]苹果, 是一种水果。蔷薇科苹果属植物。它原产于欧洲、中亚西亚、北美、中国新疆。蔷薇科。属落叶乔木，其树干可高达15米，呈灰褐色，老皮有不规则的纵裂或片状剥落，小枝幼时密生绒毛，后变光滑，紫褐色。苹果富含多种微量元素和维生素等多种人体所需的营养成分，是公认的营养程度最高的健康水果之一。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/fruits_action_files/fruit0.py"
+    },
+    "香蕉":{
+        "key_words": [
+            "识别到香蕉"
+        ],
+        "reply": [
+            "这是香蕉"
+
+        ],
+        "interpret_reply":[
+            "香蕉是一种水果, 原产亚洲东南部，是芭蕉科、芭蕉属植物, 植株丛生，具匐匍茎，矮型的高3.5米以下，一般高不及2米。我国是世界上栽培香蕉的古老国家之一，世界上主栽的香蕉品种大多由中国传去。香蕉营养丰富，是公认的美容减肥食品，含有丰富的糖类、蛋白质、维生素、粗纤维、矿物质等营养成分。"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/fruits_action_files/fruit0.py"
+    },
+    "橘子":{
+        "key_words": [
+            "识别到橘子"
+        ],
+        "reply": [
+            "这是橘子"
+        ],
+        "interpret_reply":[
+            "橘子是一种水果。橘子外皮多为黄色、朱红色，果形有好几种，一般是扁圆球形至近圆球形。中国是柑橘的重要原产地之一，柑橘资源丰富，优良品种繁多，有4000多年的栽培历史。橘子营养丰富, 富含多种维生素与柠檬酸，具有开胃理气、止渴润肺、养颜护肤等功效，常吃橘子可以预防坏血病及夜盲症"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/fruits_action_files/fruit0.py"
+    },
+    "停止运行": {
+        "key_words": [
+            "停止运行",
+            "停下来"
+        ],
+        "reply": [
+            "好的",
+            "好嘞!"
+        ],
+        "cmd_type": "stop_node"
+    },
+    "自我介绍": {
+        "key_words": [
+            "自我介绍"
+        ],
+        "reply": [
+            "我是鲁班，我是个机器人"
+        ],
+        "cmd_type": "run_node",
+        "path": "/home/lemon/robot_ros_application/catkin_ws/src/ros_actions_node/scripts/举手.py"
+    },
+    "wakeup": {
+        "key_words": [
+            "wakeup"
+        ],
+        "reply": [
+            "在呢",
+            "Hi",
+             "我在！"
+        ],
+        "cmd_type": "wakeup"
+    }
+    
+}
