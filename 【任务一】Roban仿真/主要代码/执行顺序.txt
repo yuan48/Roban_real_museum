@@ -1,0 +1,31 @@
+记得装pyaudio
+
+roscore
+cd ~/CoppeliaSim_Edu ./coppeliaSim.sh 
+手动开roban.ttt
+sudo bash bodyhub.sh
+rosrun ik_module ik_module_node
+--- python test.py
+跑key_tele.py
+跑key_cmd.py
+
+
+--slam顺序
+开image_convert将32FC1转为16UC1
+建图：rosrun SLAM RGBD true false
+跑已有地图：rosrun SLAM RGBD true true
+
+
+--注意事项
+* 改lua里16UC1为32FC1
+* convert_slam.py文件里记得flip 180度
+* 改src>SLAM>ORB_SLAM2>src>PointCloudMapping.cc，107行，把depthImgs.push_back注释取消
+
+跑scripts下的Task_path_tracking(记得改public.py)
+
+改/home/fan/robot_ros_application/catkin_ws/src/ikmodule/walkEngien/src/ikModule_node.cpp
+或者搜索“IkModule is busy with controlID”
+15行uint8_t currentControlId = 6, bodyhubControlId = 0;   
+
+避障在
+action_node/script下

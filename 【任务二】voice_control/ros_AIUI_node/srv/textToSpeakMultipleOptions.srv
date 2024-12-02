@@ -1,0 +1,7 @@
+string text
+string vcn
+uint8 speed
+uint8 pitch
+uint8 volume
+---
+bool is_success
