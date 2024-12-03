@@ -1,0 +1,11 @@
+<launch>
+  <node name="chin_camera" pkg="usb_cam" type="usb_cam_node" output="screen" >
+    <param name="video_device" value="/dev/usb_cam" />
+    <param name="image_width" value="640" />
+    <param name="image_height" value="480" />
+    <param name="pixel_format" value="yuyv" />
+    <param name="camera_frame_id" value="chin_camera" />
+    <param name="io_method" value="mmap"/>
+    <remap from="/chin_camera/image_raw" to="/chin_camera/image" />
+  </node>
+  </launch>

@@ -1,0 +1,6 @@
+global_position: [0.08015248847694414, 0.05543212125321371, 4.346304474487994] # 使用debug模式可以自动填写该值
+walk_time: 120 # 原地踏步时间
+stand_time: 60 # 原地踏步校准之后站立的时间
+Marker_id: 0 # 需要对齐的artag码编号
+use_artag: 1 # 1->使用artag, 0->不使用artag进行校准
+adjust_interval: 5  # 每隔 5s 校准一次
