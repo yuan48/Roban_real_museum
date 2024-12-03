@@ -1,0 +1,2 @@
+int32 camera_status
+int32 controller_status
